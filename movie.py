@@ -57,7 +57,7 @@ def save_movie(filename):
     for m in movies:
         writer.writerow([m.title, m.duration, m.age])
 
-    print("파일이 업데이트 되었습니다.")
+    print(    "파일이 업데이트 되었습니다.")
     f.close()
 
 load_movies("movie.csv")
